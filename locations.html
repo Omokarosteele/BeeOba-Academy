@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campuses — BeeOba Academy</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="kente-top"></div>
+<header class="site-header"><div class="container nav">
+  <a href="index.html" class="brand"><svg class="logo-mark" viewBox="0 0 48 48"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B6B3A"/><stop offset="1" stop-color="#E8A200"/></linearGradient></defs><path d="M24 2.5 43 13.5v21L24 45.5 5 34.5v-21z" fill="url(#lg)"/><path d="M24 11.5 35 18v12L24 36.5 13 30V18z" fill="#FBF7EF"/><circle cx="24" cy="24" r="4.2" fill="#0B6B3A"/></svg><span><span class="brand-name">BeeOba Academy</span><span class="brand-sub">Beauty · Barbering · Nigeria</span></span></a>
+  <button class="burger" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+  <nav class="nav-links" id="navlinks">
+    <a href="index.html">Home</a><a href="courses.html">Courses</a><a href="about.html">About</a>
+    <a href="locations.html" class="active">Campuses</a><a href="salon-services.html">Salon</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a>
+    <a href="enrol-now.html" class="btn btn-primary btn-sm nav-cta">Enrol Now</a>
+  </nav>
+</div></header>
 
+<main>
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">Campuses</span>
+    <h1>Three campuses. One standard.</h1>
+    <p class="lede">Training closer to home — in Delta State and Lagos. Every campus runs the same curriculum, the same assessments and the same standard of instruction.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid" style="gap:1.5rem">
+      <div class="card" style="display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:start">
+        <div>
+          <span class="tag">Main Campus</span>
+          <h2 style="font-size:1.6rem;margin-top:.6rem">Agbarho Campus</h2>
+          <div class="addr-line"><span>📍</span><span>1 Ogare Street, Agbarho, Delta State</span></div>
+          <div class="addr-line"><span>🕘</span><span>Mon – Fri · 8:00am – 6:00pm | Sat · 9:00am – 3:00pm</span></div>
+          <div class="addr-line"><span>📞</span><span>+234 (0)704 506 4696</span></div>
+          <div class="addr-line"><span>🎓</span><span>Barbering &amp; Hairdressing (Certificate + Apprenticeship)</span></div>
+          <div class="btn-row" style="margin-top:1rem">
+            <a class="btn btn-primary btn-sm" href="https://www.google.com/maps/search/?api=1&query=1%20Ogare%20Street%20Agbarho%20Delta%20State" target="_blank" rel="noopener">Open in Maps</a>
+            <a class="btn btn-outline btn-sm" href="tel:+2347045064696">Call campus</a>
+          </div>
+        </div>
+        <div style="width:120px;height:120px;border-radius:20px;background:linear-gradient(135deg,var(--green),var(--gold));display:grid;place-items:center;font-size:2.2rem;color:#fff;flex:none">🏫</div>
+      </div>
+      <div class="card" style="display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:start">
+        <div>
+          <span class="tag">Delta Hub</span>
+          <h2 style="font-size:1.6rem;margin-top:.6rem">Abraka Campus</h2>
+          <div class="addr-line"><span>📍</span><span>22 Double Delight, Off Aragba Road, Abraka, Delta State</span></div>
+          <div class="addr-line"><span>🕘</span><span>Mon – Fri · 8:00am – 6:00pm | Sat · 9:00am – 2:00pm</span></div>
+          <div class="addr-line"><span>📞</span><span>+234 (0)708 684 6107</span></div>
+          <div class="addr-line"><span>🎓</span><span>Hairdressing (Certificate + Apprenticeship), Barbering Apprenticeship</span></div>
+          <div class="btn-row" style="margin-top:1rem">
+            <a class="btn btn-primary btn-sm" href="https://www.google.com/maps/search/?api=1&query=22%20Double%20Delight%20Aragba%20Road%20Abraka" target="_blank" rel="noopener">Open in Maps</a>
+            <a class="btn btn-outline btn-sm" href="tel:+2347086846107">Call campus</a>
+          </div>
+        </div>
+        <div style="width:120px;height:120px;border-radius:20px;background:linear-gradient(135deg,var(--plum),var(--gold));display:grid;place-items:center;font-size:2.2rem;color:#fff;flex:none">🏫</div>
+      </div>
+      <div class="card" style="display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:start">
+        <div>
+          <span class="tag">Lagos Hub</span>
+          <h2 style="font-size:1.6rem;margin-top:.6rem">Ikeja Campus</h2>
+          <div class="addr-line"><span>📍</span><span>13 Pencon Drive, Ikeja, Lagos</span></div>
+          <div class="addr-line"><span>🕘</span><span>Mon – Sat · 8:00am – 7:00pm</span></div>
+          <div class="addr-line"><span>📞</span><span>+234 (0)704 506 4696</span></div>
+          <div class="addr-line"><span>🎓</span><span>Full Barbering &amp; Hairdressing suite, including International Student programmes</span></div>
+          <div class="btn-row" style="margin-top:1rem">
+            <a class="btn btn-primary btn-sm" href="https://www.google.com/maps/search/?api=1&query=13%20Pencon%20Drive%20Ikeja%20Lagos" target="_blank" rel="noopener">Open in Maps</a>
+            <a class="btn btn-outline btn-sm" href="tel:+2347045064696">Call campus</a>
+          </div>
+        </div>
+        <div style="width:120px;height:120px;border-radius:20px;background:linear-gradient(135deg,var(--indigo),var(--green));display:grid;place-items:center;font-size:2.2rem;color:#fff;flex:none">🏫</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;border-block:1px solid var(--line)">
+  <div class="container">
+    <div class="grid grid-2" style="gap:2.5rem;align-items:start">
+      <div>
+        <span class="eyebrow eyebrow--dark">Getting here</span>
+        <h2>Plan your visit.</h2>
+        <p class="lede">Tours run Monday to Friday, 9:00am – 4:00pm. Walk-ins are welcome, but booking ahead means a senior instructor can show you around.</p>
+        <div class="btn-row"><a class="btn btn-primary" href="contact.html">Book a tour</a><a class="btn btn-outline" href="enrol-now.html">Apply now</a></div>
+      </div>
+      <div class="card" style="background:var(--cream)">
+        <h3>Good to know</h3>
+        <ul class="checklist" style="font-size:.92rem">
+          <li>Free parking is available at all three campuses.</li>
+          <li>Agbarho and Abraka are approximately 45 minutes apart.</li>
+          <li>The Ikeja campus hosts our international student intake.</li>
+          <li>Student clinic appointments can be booked at reception.</li>
+          <li>Accessible entry is available at Agbarho and Ikeja.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Which campus is right for you?</h2>
+      <p style="max-width:56ch;color:rgba(255,255,255,.88)">Tell us where you are and what you want to study — we will point you to the closest campus and intake.</p>
+      <div class="btn-row"><a class="btn btn-gold" href="contact.html">Speak to admissions</a><a class="btn btn-ghost" href="courses.html">See programmes</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer"><div class="container">
+  <div class="footer-grid">
+    <div><div class="footer-brand"><svg class="logo-mark" viewBox="0 0 48 48"><path d="M24 2.5 43 13.5v21L24 45.5 5 34.5v-21z" fill="#E8A200"/><path d="M24 11.5 35 18v12L24 36.5 13 30V18z" fill="#0A2B18"/><circle cx="24" cy="24" r="4.2" fill="#E8A200"/></svg><span><span class="brand-name">BeeOba Academy</span><span class="brand-sub">Beauty · Barbering · Nigeria</span></span></div>
+      <p style="font-size:.88rem;max-width:34ch">Training Nigeria's next generation of master barbers and hairdressers.</p></div>
+    <div><h4>Explore</h4><ul><li><a href="courses.html">All Programmes</a></li><li><a href="about.html">About Us</a></li><li><a href="locations.html">Campuses</a></li><li><a href="salon-services.html">Salon</a></li><li><a href="faq.html">FAQ</a></li></ul></div>
+    <div><h4>Students</h4><ul><li><a href="enrol-now.html">Enrol Now</a></li><li><a href="policies-forms.html">Policies</a></li><li><a href="general-enquiry.html">General Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div><h4>Reach Us</h4><ul><li>1 Ogare Street, Agbarho, Delta State</li><li>22 Double Delight, Off Aragba Rd, Abraka</li><li>13 Pencon Drive, Ikeja, Lagos</li><li><a href="tel:+2347045064696">+234 (0)704 506 4696</a></li><li><a href="tel:+2347086846107">+234 (0)708 684 6107</a></li><li><a href="mailto:info@beeobaacademy.org">info@beeobaacademy.org</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><span>© <span id="year"></span> BeeOba Academy.</span><span>Agbarho · Abraka · Ikeja</span></div>
+</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+          </html>
